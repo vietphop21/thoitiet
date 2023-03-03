@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2));
+}
+.he_weather
+{
+    width:350px;
+    border-radius: 10px;
+    padding:30px 20px;
+    background: url(anh/muahe1.jpg);
+}
+.thu_weather
+{
+    width:350px;
+    border-radius: 10px;
+    padding:30px 20px;
+    background: url(anh/muathu.jpg);
+}
+.xuan_weather
+{
+    width:350px;
+    border-radius: 10px;
+    padding:30px 20px;
+    background: url(anh/muaxuan.jpg);
+}
+.dong_weather
+{
+    width:350px;
+    border-radius: 10px;
+    padding:30px 20px;
+    background: url(anh/muadong.jpg);
+}
+
+.search
+{
+    width: 100%;
+    padding:10px 5px;
+    background-color: antiquewhite;
+    border-radius: 0 15px 0 15px;
+    box-shadow:  0 5px rgba(0,0,0,0,4);
+    font-size: 10px;
+}
+.search:focus{
+    background: whitesmoke;
+  
+    box-shadow: 15px 0 15px 0;
+}
+.content
+{
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin:40px
+}
+.captial{
+    text-shadow: 2px 2px rgba(0,0,0,0,5);
+
+}
+.time
+{
+    font-size:12px;
+    padding:10px;
+    font-weight:bold;
+    color:black;
+
+}
+.temperature
+{
+    font-size: 60px;
+   
+  
+    height: 90px;
+    background: whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.short_desc
+{
+    font-size:30px;
+    font-weight: bold;
+   margin: 30px ;
+    color:black;
+     
+}
+.more_desc {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 15px;
+    padding-top: 50px;
+    color:black;
+    font-weight: bold;
+}
+.more_desc div{
+    padding:25px;
+    align-items: center;
+   
+}
+.speed div{
+    display:flex;
+    flex-direction: column;
+    padding-top:50px;
+    padding:20px;
+    margin: 20px;
+}
