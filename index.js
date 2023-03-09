@@ -34,7 +34,7 @@ async function changeWeather() {
     {
         weather.setAttribute('class','thu_weather');
     }
-    else if ( temp=== 5)
+    else if ( temp< 10)
     {
         weather.setAttribute('class','dong_weather');
     }
